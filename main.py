@@ -4,22 +4,18 @@ from src.load import Load
 extract = Extract()
 load = Load()
 
-# Variáveis pedidas no desafio
 variaveis = {
     "4099": "taxa_desocupacao",
     "4096": "taxa_participacao",
     "12466": "taxa_informalidade",
 }
 
-# Categorias de sexo pedidas no desafio
 sexos = {
     "6794": "total",
     "4": "homens",
     "5": "mulheres",
 }
 
-# Estados que o grupo precisa extrair (código N3 do IBGE)
-# Exemplo: 26 = Pernambuco, 35 = São Paulo, 33 = Rio de Janeiro
 estados = {
     "26": "pernambuco",
     "35": "sao_paulo",
